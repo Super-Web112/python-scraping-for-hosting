@@ -1,0 +1,195 @@
+{% extends "layouts/base.html" %}
+
+{% block title %} UI Tables {% endblock %} 
+
+<!-- Specific Page CSS goes HERE  -->
+{% block stylesheets %}
+<style>
+tbody>tr>td>i{
+  cursor:pointer;
+}
+</style>
+{% endblock stylesheets %}
+
+{% block content %}
+
+        <div class="row">
+            <div class="col-md-12">
+              <button class="btn btn-primary" id="add-user-btn" {% if request.user.is_superuser %}data-toggle="modal" data-target="#exampleModal" {% endif %}>Add User</button>
+            </div>
+            <div class="col-md-12">
+              <div class="card">
+                <div class="card-header card-header-primary">
+                  <h4 class="card-title ">User List</h4>
+                </div>
+                <div class="card-body">
+                  <div class="table-responsive">
+                    <table class="table">
+                      <thead class=" text-primary">
+                        <th>
+                          Id
+                        </th>
+                        <th>
+                          User Name
+                        </th>
+                        <th>
+                          Email
+                        </th>
+                        <th>
+                          Name
+                        </th>
+                        <th>
+                          <i class="material-icons">delete</i>
+                        </th>
+                      </thead>
+                      
+                      <tbody>
+                      {% for user in users %}
+                        <tr id="{{ user.username }}">
+                          <td>
+                          {{ user.id }}
+                          </td>
+                          <td>
+                            {{ user.username }}
+                          </td>
+                          <td>
+                            {{ user.email }}
+                          </td>
+                          <td>
+                            {{ user.first_name }} {{user.last_name }}
+                          </td>
+                          <td>
+                            <i class="material-icons" {% if request.user.is_superuser %} onclick="del_user('{{ user.username }}')" {% endif %}>delete</i>
+                          </td>
+                        </tr>
+                        {% endfor %}
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+{% if request.user.is_superuser %}
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Add User</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <h6 class="card-category">
+            {% if msg %}
+              <span class="text-danger">{{ msg }}</span>
+            {% else %}
+              Add new user
+            {% endif %}  
+        </h6>
+        
+        <br />
+
+        
+          <form role="form" method="post" action="">
+              
+            {% csrf_token %} 
+
+            <div class="row">
+              <div class="col-md-12">
+                <div class="form-group">
+                  <label class="bmd-label-floating">Username</label>
+                  {{ form.username }}
+                </div>
+              </div>
+            </div>
+            <span class="text-danger">{{ form.username.errors }}</span>
+
+            <br />
+
+            <div class="row">
+              <div class="col-md-12">
+                <div class="form-group">
+                  <label class="bmd-label-floating">Email</label>
+                  {{ form.email }}
+                </div>
+              </div>
+            </div>
+            <span class="text-danger">{{ form.email.errors }}</span>
+
+            <br />
+
+            <div class="row">
+              <div class="col-md-12">
+                <div class="form-group">
+                  <label class="bmd-label-floating">Password</label>
+                  {{ form.password1 }}
+                </div>
+              </div>
+            </div>
+            <span class="text-danger">{{ form.password1.errors }}</span>
+
+            <br />
+
+            <div class="row">
+              <div class="col-md-12">
+                <div class="form-group">
+                  <label class="bmd-label-floating">Password Check</label>
+                  {{ form.password2 }}
+                </div>
+              </div>
+            </div>
+            <span class="text-danger">{{ form.password2.errors }}</span>
+
+            <br />
+            
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="submit" class="btn btn-primary">Add</button>
+            <div class="clearfix"></div>
+
+          </form>
+      </div>
+      <!-- <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Add</button>
+      </div> -->
+    </div>
+  </div>
+</div>
+{% endif %}
+{% endblock content %}
+
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}
+<script>
+  var token = $('{% csrf_token %}').val()
+//$(document).ready(function() {
+function del_user(name){
+  username = name
+  console.log(username)
+  $.ajax({
+    headers: { "X-CSRFToken": token },
+    url: "/del_user",
+    type: "POST",
+    data: {'username': username},
+    success:function(data){
+      $.notify({
+        icon: "error",
+        message: data
+
+      }, {
+        type: 'success',
+        timer: 3000,
+        placement: {
+          from: "bottom",
+          align: "right"
+        }
+      });
+    }
+  });					
+}
+//})
+</script>
+{% endblock javascripts %}

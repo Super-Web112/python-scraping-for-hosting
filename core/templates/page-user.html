@@ -1,0 +1,167 @@
+{% extends "layouts/base.html" %}
+
+{% block title %} Page User {% endblock %} 
+
+<!-- Specific Page CSS goes HERE  -->
+{% block stylesheets %}
+<style>
+#photo-input{
+  width: 130px;
+  height: 130px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  opacity: 0;
+  cursor: pointer;
+}
+.card-profile .card-avatar{
+  position: relative;
+}
+#user-avatar{
+  width: 130px;
+  height: 130px;
+}
+</style>
+{% endblock stylesheets %}
+
+{% block content %}
+
+          <div class="row">
+            <div class="col-md-8">
+              <div class="card">
+                <div class="card-header card-header-primary">
+                  <h4 class="card-title">Edit Profile</h4>
+                  <p class="card-category">Complete your profile</p>
+                </div>
+                <div class="card-body">
+                  <form action="/update_profile" method="POST">
+                  {% csrf_token %}
+                    <div class="row">
+                      <div class="col-md-5">
+                        <div class="form-group">
+                          <label class="bmd-label-floating">UserID (disabled)</label>
+                          <input type="text" class="form-control" disabled value="{{ request.user.id }}" name="userId">
+                        </div>
+                      </div>
+                      <div class="col-md-3">
+                        <div class="form-group">
+                          <label class="bmd-label-floating">Username</label>
+                          <input type="text" class="form-control" value="{{ request.user.username }}" name="userName" required>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="form-group">
+                          <label class="bmd-label-floating">Email address</label>
+                          <input type="email" class="form-control" value="{{ request.user.email }}" name="email" required>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label class="bmd-label-floating">Fist Name</label>
+                          <input type="text" class="form-control" value="{{ request.user.first_name }}" name="firstname">
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label class="bmd-label-floating">Last Name</label>
+                          <input type="text" class="form-control" value="{{ request.user.last_name }}" name="lastname">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <label class="bmd-label-floating">Adress</label>
+                          <input type="text" class="form-control" value="{{ request.user.address }}" name="address">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-4">
+                        <div class="form-group">
+                          <label class="bmd-label-floating">City</label>
+                          <input type="text" class="form-control" value="{{ request.user.city }}" name="city">
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="form-group">
+                          <label class="bmd-label-floating">Country</label>
+                          <input type="text" class="form-control" value="{{ request.user.country }}" name="country">
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="form-group">
+                          <label class="bmd-label-floating">Postal Code</label>
+                          <input type="text" class="form-control" value="{{ request.user.postal_code }}" name="postalCode">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <label class="bmd-label-floating">About Me</label>
+                          <textarea class="form-control" rows="5" name="aboutMe">{{ request.user.aboutMe }}</textarea>
+                        </div>
+                      </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary pull-right">Update Profile</button>
+                    <div class="clearfix"></div>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card card-profile">
+                <div class="card-avatar">
+                  <img class="img" id="user-avatar" src="{{ request.user.photo }}" />
+                  <input type='file' id='photo-input'>
+                </div>
+                <div class="card-body">
+                  <h6 class="card-category text-gray">
+                    {{ request.user.username }}
+                  </h6>
+                  <h4 class="card-title">
+                    {{ request.user.email }}
+                  </h4>
+                  <p class="card-description">
+                    {{ request.user.aboutMe }}
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+{% endblock content %}
+
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}
+<script>
+  var token = $('{% csrf_token %}').val()
+  var username = "{{ request.user.username }}"
+$(document).ready(function() {
+$("#photo-input").on("change", function() {
+  var file = this.files[0];
+  formdata = new FormData()
+  if (formdata) {
+    formdata.append("image", file);
+    formdata.append("username", username);
+    $.ajax({
+      headers: { "X-CSRFToken": token },
+      url: "/upload_photo",
+      type: "POST",
+      data: formdata,
+      enctype :"multipart/form-data",
+      processData: false,
+      contentType: false,
+      success:function(data){
+        $("#user-avatar").attr("src", "static/assets/img/upload/" + data.name);
+      }
+    });
+  }						
+});	
+})
+</script>
+{% endblock javascripts %}

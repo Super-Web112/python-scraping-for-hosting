@@ -1,0 +1,1182 @@
+[
+    {
+        "label": "login_required",
+        "importPath": "django.contrib.auth.decorators",
+        "description": "django.contrib.auth.decorators",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "login_required",
+        "importPath": "django.contrib.auth.decorators",
+        "description": "django.contrib.auth.decorators",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "login_required",
+        "importPath": "django.contrib.auth.decorators",
+        "description": "django.contrib.auth.decorators",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "get_object_or_404",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "get_object_or_404",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "get_object_or_404",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "HttpResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "JsonResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "HttpResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "JsonResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "HttpResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "JsonResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "HttpResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "ChromeDriverManager",
+        "importPath": "webdriver_manager.chrome",
+        "description": "webdriver_manager.chrome",
+        "isExtraImport": true,
+        "detail": "webdriver_manager.chrome",
+        "documentation": {}
+    },
+    {
+        "label": "ChromeDriverManager",
+        "importPath": "webdriver_manager.chrome",
+        "description": "webdriver_manager.chrome",
+        "isExtraImport": true,
+        "detail": "webdriver_manager.chrome",
+        "documentation": {}
+    },
+    {
+        "label": "WebDriverWait",
+        "importPath": "selenium.webdriver.support.ui",
+        "description": "selenium.webdriver.support.ui",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.ui",
+        "documentation": {}
+    },
+    {
+        "label": "WebDriverWait",
+        "importPath": "selenium.webdriver.support.ui",
+        "description": "selenium.webdriver.support.ui",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.ui",
+        "documentation": {}
+    },
+    {
+        "label": "expected_conditions",
+        "importPath": "selenium.webdriver.support",
+        "description": "selenium.webdriver.support",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support",
+        "documentation": {}
+    },
+    {
+        "label": "expected_conditions",
+        "importPath": "selenium.webdriver.support",
+        "description": "selenium.webdriver.support",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "WebElement",
+        "importPath": "selenium.webdriver.remote.webelement",
+        "description": "selenium.webdriver.remote.webelement",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.remote.webelement",
+        "documentation": {}
+    },
+    {
+        "label": "WebElement",
+        "importPath": "selenium.webdriver.remote.webelement",
+        "description": "selenium.webdriver.remote.webelement",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.remote.webelement",
+        "documentation": {}
+    },
+    {
+        "label": "ActionChains",
+        "importPath": "selenium.webdriver.common.action_chains",
+        "description": "selenium.webdriver.common.action_chains",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.action_chains",
+        "documentation": {}
+    },
+    {
+        "label": "ActionChains",
+        "importPath": "selenium.webdriver.common.action_chains",
+        "description": "selenium.webdriver.common.action_chains",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.action_chains",
+        "documentation": {}
+    },
+    {
+        "label": "ItalianName",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "City",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "ItalianName",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "City",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "ItalianName",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "City",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "csv",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "csv",
+        "description": "csv",
+        "detail": "csv",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "ZipFile",
+        "importPath": "zipfile",
+        "description": "zipfile",
+        "isExtraImport": true,
+        "detail": "zipfile",
+        "documentation": {}
+    },
+    {
+        "label": "ZipFile",
+        "importPath": "zipfile",
+        "description": "zipfile",
+        "isExtraImport": true,
+        "detail": "zipfile",
+        "documentation": {}
+    },
+    {
+        "label": "io",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "io",
+        "description": "io",
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "ajax",
+        "importPath": "django_ajax.decorators",
+        "description": "django_ajax.decorators",
+        "isExtraImport": true,
+        "detail": "django_ajax.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "re_path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "views",
+        "importPath": "app",
+        "description": "app",
+        "isExtraImport": true,
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "scrape",
+        "importPath": "app",
+        "description": "app",
+        "isExtraImport": true,
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "loader",
+        "importPath": "django.template",
+        "description": "django.template",
+        "isExtraImport": true,
+        "detail": "django.template",
+        "documentation": {}
+    },
+    {
+        "label": "template",
+        "importPath": "django",
+        "description": "django",
+        "isExtraImport": true,
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "forms",
+        "importPath": "django",
+        "description": "django",
+        "isExtraImport": true,
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "UserCreationForm",
+        "importPath": "django.contrib.auth.forms",
+        "description": "django.contrib.auth.forms",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "LogoutView",
+        "importPath": "django.contrib.auth.views",
+        "description": "django.contrib.auth.views",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.views",
+        "documentation": {}
+    },
+    {
+        "label": "authenticate",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "ErrorList",
+        "importPath": "django.forms.utils",
+        "description": "django.forms.utils",
+        "isExtraImport": true,
+        "detail": "django.forms.utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "importPath": "decouple",
+        "description": "decouple",
+        "isExtraImport": true,
+        "detail": "decouple",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "unipath",
+        "description": "unipath",
+        "isExtraImport": true,
+        "detail": "unipath",
+        "documentation": {}
+    },
+    {
+        "label": "dj_database_url",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "dj_database_url",
+        "description": "dj_database_url",
+        "detail": "dj_database_url",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "scrape_data",
+        "kind": 2,
+        "importPath": ".history.app.scrape_20201229173546",
+        "description": ".history.app.scrape_20201229173546",
+        "peekOfCode": "def scrape_data(request):\n    scrape_name = request.GET.get('scrape_name', None)\n    start_id = request.GET.get('start_id', None)\n    end_id = request.GET.get('end_id', None)\n    option = webdriver.ChromeOptions()\n    option.add_argument(\"window-size=1280,800\")\n    # option.add_argument(\"--headless\")\n    # Setup wait for later\n    # wait = WebDriverWait(driver, 10)\n    driver = ''",
+        "detail": ".history.app.scrape_20201229173546",
+        "documentation": {}
+    },
+    {
+        "label": "scrape_aaa",
+        "kind": 2,
+        "importPath": ".history.app.scrape_20201229173546",
+        "description": ".history.app.scrape_20201229173546",
+        "peekOfCode": "def scrape_aaa(request):\n    ItalianName.objects.all().delete()\n    # username = request.GET.get('username', None)\n    option = webdriver.ChromeOptions()\n    option.add_argument(\"window-size=1280,800\")\n    # option.add_argument(\"--headless\")\n    driver = webdriver.Chrome(ChromeDriverManager().install(), options=option)\n    driver.set_window_position(0, 0)\n    driver.get('https://www.nomix.it/nomi-italiani-maschili-e-femminili.php')\n    urls = {'https://www.nomix.it/nomi-italiani-maschili-e-femminili.php', 'https://www.nomix.it/nomi-italiani-lettera-B.php', 'https://www.nomix.it/nomi-italiani-lettera-C.php', 'https://www.nomix.it/nomi-italiani-lettera-D.php', 'https://www.nomix.it/nomi-italiani-lettera-E.php', 'https://www.nomix.it/nomi-italiani-lettera-F.php', 'https://www.nomix.it/nomi-italiani-lettera-G.php', 'https://www.nomix.it/nomi-italiani-lettera-I.php', 'https://www.nomix.it/nomi-italiani-lettera-L.php', 'https://www.nomix.it/nomi-italiani-lettera-M.php', 'https://www.nomix.it/nomi-italiani-lettera-NO.php', 'https://www.nomix.it/nomi-italiani-lettera-PQ.php', 'https://www.nomix.it/nomi-italiani-lettera-R.php', 'https://www.nomix.it/nomi-italiani-lettera-S.php', 'https://www.nomix.it/nomi-italiani-lettera-TUV.php', 'https://www.nomix.it/nomi-italiani-lettera-WZ.php'}",
+        "detail": ".history.app.scrape_20201229173546",
+        "documentation": {}
+    },
+    {
+        "label": "scrape_name",
+        "kind": 2,
+        "importPath": ".history.app.scrape_20201229173546",
+        "description": ".history.app.scrape_20201229173546",
+        "peekOfCode": "def scrape_name(request):\n    # username = request.GET.get('username', None)\n    i = 1080\n    driver = ''\n    while(i<=1086):\n        try:\n            option = webdriver.ChromeOptions()\n            option.add_argument(\"window-size=1280,800\")\n            # option.add_argument(\"--headless\")\n            driver = webdriver.Chrome(ChromeDriverManager().install(), options=option)",
+        "detail": ".history.app.scrape_20201229173546",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "app.migrations.0001_initial",
+        "description": "app.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='ItalianName',\n            fields=[\n                ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('names_col', models.CharField(max_length=200)),",
+        "detail": "app.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "app.migrations.0002_city",
+        "description": "app.migrations.0002_city",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('app', '0001_initial'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='City',\n            fields=[\n                ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('url_id', models.IntegerField()),",
+        "detail": "app.migrations.0002_city",
+        "documentation": {}
+    },
+    {
+        "label": "MyConfig",
+        "kind": 6,
+        "importPath": "app.config",
+        "description": "app.config",
+        "peekOfCode": "class MyConfig(AppConfig):\n    name = 'cfg'",
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "ItalianName",
+        "kind": 6,
+        "importPath": "app.models",
+        "description": "app.models",
+        "peekOfCode": "class ItalianName(models.Model):\n    names_col = models.CharField(max_length = 200)\n    gender_col = models.CharField(max_length = 30)\nclass City(models.Model):\n    url_id = models.IntegerField()\n    city_name = models.CharField(max_length = 30)",
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "City",
+        "kind": 6,
+        "importPath": "app.models",
+        "description": "app.models",
+        "peekOfCode": "class City(models.Model):\n    url_id = models.IntegerField()\n    city_name = models.CharField(max_length = 30)",
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "scrape_data",
+        "kind": 2,
+        "importPath": "app.scrape",
+        "description": "app.scrape",
+        "peekOfCode": "def scrape_data(request):\n    # start_id = request.POST.get('start-id', None)\n    # end_id = request.POST.get('end-id', None)\n    start_id = request.POST.get('start_id', None)\n    # end_id = request.POST.get('end_id', None)\n    option = webdriver.ChromeOptions()\n    option.add_argument(\"window-size=1280,800\")\n    # option.add_argument(\"--headless\")\n    # Setup wait for later\n    # wait = WebDriverWait(driver, 10)",
+        "detail": "app.scrape",
+        "documentation": {}
+    },
+    {
+        "label": "scrape_aaa",
+        "kind": 2,
+        "importPath": "app.scrape",
+        "description": "app.scrape",
+        "peekOfCode": "def scrape_aaa(request):\n    ItalianName.objects.all().delete()\n    # username = request.GET.get('username', None)\n    option = webdriver.ChromeOptions()\n    option.add_argument(\"window-size=1280,800\")\n    # option.add_argument(\"--headless\")\n    driver = webdriver.Chrome(ChromeDriverManager().install(), options=option)\n    driver.set_window_position(0, 0)\n    driver.get('https://www.nomix.it/nomi-italiani-maschili-e-femminili.php')\n    urls = {'https://www.nomix.it/nomi-italiani-maschili-e-femminili.php', 'https://www.nomix.it/nomi-italiani-lettera-B.php', 'https://www.nomix.it/nomi-italiani-lettera-C.php', 'https://www.nomix.it/nomi-italiani-lettera-D.php', 'https://www.nomix.it/nomi-italiani-lettera-E.php', 'https://www.nomix.it/nomi-italiani-lettera-F.php', 'https://www.nomix.it/nomi-italiani-lettera-G.php', 'https://www.nomix.it/nomi-italiani-lettera-I.php', 'https://www.nomix.it/nomi-italiani-lettera-L.php', 'https://www.nomix.it/nomi-italiani-lettera-M.php', 'https://www.nomix.it/nomi-italiani-lettera-NO.php', 'https://www.nomix.it/nomi-italiani-lettera-PQ.php', 'https://www.nomix.it/nomi-italiani-lettera-R.php', 'https://www.nomix.it/nomi-italiani-lettera-S.php', 'https://www.nomix.it/nomi-italiani-lettera-TUV.php', 'https://www.nomix.it/nomi-italiani-lettera-WZ.php'}",
+        "detail": "app.scrape",
+        "documentation": {}
+    },
+    {
+        "label": "scrape_name",
+        "kind": 2,
+        "importPath": "app.scrape",
+        "description": "app.scrape",
+        "peekOfCode": "def scrape_name(request):\n    # username = request.GET.get('username', None)\n    i = 1166\n    driver = ''\n    while(i<=3000):\n        try:\n            option = webdriver.ChromeOptions()\n            option.add_argument(\"window-size=1280,800\")\n            # option.add_argument(\"--headless\")\n            driver = webdriver.Chrome(ChromeDriverManager().install(), options=option)",
+        "detail": "app.scrape",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "app.urls",
+        "description": "app.urls",
+        "peekOfCode": "urlpatterns = [\n    # The home page\n    path('', views.index, name='home'),\n    path('user-management', views.user_management, name='user_management'),\n    path('user-profile', views.user_profile, name='user_profile'),\n    # scraping function\n    path('scrape_data', scrape.scrape_data),\n    # scraping function\n    path('scrape_name', scrape.scrape_name),\n    # Matches any html file",
+        "detail": "app.urls",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 2,
+        "importPath": "app.views",
+        "description": "app.views",
+        "peekOfCode": "def index(request):\n    context = {}\n    context['segment'] = 'index'\n    context['page_name'] = 'Scrape'\n    context['cities'] = City.objects.all()\n    html_template = loader.get_template( 'index.html' )\n    return HttpResponse(html_template.render(context, request))\n@login_required(login_url=\"/login/\")\ndef user_management(request):\n    context = {}",
+        "detail": "app.views",
+        "documentation": {}
+    },
+    {
+        "label": "user_management",
+        "kind": 2,
+        "importPath": "app.views",
+        "description": "app.views",
+        "peekOfCode": "def user_management(request):\n    context = {}\n    context['segment'] = 'user-management.html'\n    context['page_name'] = 'User Management'\n    html_template = loader.get_template( 'user-management.html' )\n    return HttpResponse(html_template.render(context, request))\ndef user_profile(request):\n    context = {}\n    context['segment'] = 'page-user.html'\n    context['page_name'] = 'User Profile'",
+        "detail": "app.views",
+        "documentation": {}
+    },
+    {
+        "label": "user_profile",
+        "kind": 2,
+        "importPath": "app.views",
+        "description": "app.views",
+        "peekOfCode": "def user_profile(request):\n    context = {}\n    context['segment'] = 'page-user.html'\n    context['page_name'] = 'User Profile'\n    html_template = loader.get_template( 'page-user.html' )\n    return HttpResponse(html_template.render(context, request))\n@login_required(login_url=\"/login/\")\ndef down(request):\n    filename = request.path.split('/')[-1]\n    s = io.BytesIO()",
+        "detail": "app.views",
+        "documentation": {}
+    },
+    {
+        "label": "down",
+        "kind": 2,
+        "importPath": "app.views",
+        "description": "app.views",
+        "peekOfCode": "def down(request):\n    filename = request.path.split('/')[-1]\n    s = io.BytesIO()\n    zf = ZipFile(s, \"w\")\n    zf.write('csv_files/'+filename)\n    zf.close()\n    response = HttpResponse(s.getvalue(), content_type='application/zip')\n    response_filename = filename.replace('csv', 'zip')\n    response['Content-Disposition'] = 'attachment; filename=%s' % response_filename\n    # response['Content-Length'] = zip_io.tell()",
+        "detail": "app.views",
+        "documentation": {}
+    },
+    {
+        "label": "AuthConfig",
+        "kind": 6,
+        "importPath": "authentication.config",
+        "description": "authentication.config",
+        "peekOfCode": "class AuthConfig(AppConfig):\n    name = 'authcfg'",
+        "detail": "authentication.config",
+        "documentation": {}
+    },
+    {
+        "label": "LoginForm",
+        "kind": 6,
+        "importPath": "authentication.forms",
+        "description": "authentication.forms",
+        "peekOfCode": "class LoginForm(forms.Form):\n    username = forms.CharField(\n        widget=forms.TextInput(\n            attrs={  \n                \"class\"       : \"form-control\"\n            }\n        ))\n    password = forms.CharField(\n        widget=forms.PasswordInput(\n            attrs={      ",
+        "detail": "authentication.forms",
+        "documentation": {}
+    },
+    {
+        "label": "SignUpForm",
+        "kind": 6,
+        "importPath": "authentication.forms",
+        "description": "authentication.forms",
+        "peekOfCode": "class SignUpForm(UserCreationForm):\n    username = forms.CharField(\n        widget=forms.TextInput(\n            attrs={            \n                \"class\": \"form-control\"\n            }\n        ))\n    email = forms.EmailField(\n        widget=forms.EmailInput(\n            attrs={",
+        "detail": "authentication.forms",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "authentication.urls",
+        "description": "authentication.urls",
+        "peekOfCode": "urlpatterns = [\n    path('login/', login_view, name=\"login\"),\n    path('register/', register_user, name=\"register\"),\n    path(\"logout/\", LogoutView.as_view(), name=\"logout\")\n]",
+        "detail": "authentication.urls",
+        "documentation": {}
+    },
+    {
+        "label": "login_view",
+        "kind": 2,
+        "importPath": "authentication.views",
+        "description": "authentication.views",
+        "peekOfCode": "def login_view(request):\n    form = LoginForm(request.POST or None)\n    msg = None\n    if request.method == \"POST\":\n        if form.is_valid():\n            username = form.cleaned_data.get(\"username\")\n            password = form.cleaned_data.get(\"password\")\n            user = authenticate(username=username, password=password)\n            if user is not None:\n                login(request, user)",
+        "detail": "authentication.views",
+        "documentation": {}
+    },
+    {
+        "label": "register_user",
+        "kind": 2,
+        "importPath": "authentication.views",
+        "description": "authentication.views",
+        "peekOfCode": "def register_user(request):\n    msg     = None\n    success = False\n    if request.method == \"POST\":\n        form = SignUpForm(request.POST)\n        if form.is_valid():\n            form.save()\n            username = form.cleaned_data.get(\"username\")\n            raw_password = form.cleaned_data.get(\"password1\")\n            user = authenticate(username=username, password=raw_password)",
+        "detail": "authentication.views",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "core.asgi",
+        "description": "core.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "PROJECT_DIR",
+        "kind": 5,
+        "importPath": "core.settings",
+        "description": "core.settings",
+        "peekOfCode": "PROJECT_DIR = Path(__file__).parent\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = config('SECRET_KEY', default='S#perS3crEt_1122')\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = config('DEBUG', default=False)\n# load production server from .env\nALLOWED_HOSTS = ['localhost', '192.168.110.133', config('SERVER', default='192.168.110.133')]\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',",
+        "detail": "core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "core.settings",
+        "description": "core.settings",
+        "peekOfCode": "SECRET_KEY = config('SECRET_KEY', default='S#perS3crEt_1122')\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = config('DEBUG', default=False)\n# load production server from .env\nALLOWED_HOSTS = ['localhost', '192.168.110.133', config('SERVER', default='192.168.110.133')]\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',",
+        "detail": "core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "core.settings",
+        "description": "core.settings",
+        "peekOfCode": "DEBUG = config('DEBUG', default=False)\n# load production server from .env\nALLOWED_HOSTS = ['localhost', '192.168.110.133', config('SERVER', default='192.168.110.133')]\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',",
+        "detail": "core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "core.settings",
+        "description": "core.settings",
+        "peekOfCode": "ALLOWED_HOSTS = ['localhost', '192.168.110.133', config('SERVER', default='192.168.110.133')]\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'app'  # Enable the inner app ",
+        "detail": "core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "core.settings",
+        "description": "core.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'app'  # Enable the inner app \n]\nMIDDLEWARE = [",
+        "detail": "core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "core.settings",
+        "description": "core.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'whitenoise.middleware.WhiteNoiseMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]",
+        "detail": "core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "core.settings",
+        "description": "core.settings",
+        "peekOfCode": "ROOT_URLCONF = 'core.urls'\nLOGIN_REDIRECT_URL = \"home\"   # Route defined in app/urls.py\nLOGOUT_REDIRECT_URL = \"home\"  # Route defined in app/urls.py\nTEMPLATE_DIR = os.path.join(BASE_DIR, \"core/templates\")  # ROOT dir for templates\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [TEMPLATE_DIR],\n        'APP_DIRS': True,\n        'OPTIONS': {",
+        "detail": "core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LOGIN_REDIRECT_URL",
+        "kind": 5,
+        "importPath": "core.settings",
+        "description": "core.settings",
+        "peekOfCode": "LOGIN_REDIRECT_URL = \"home\"   # Route defined in app/urls.py\nLOGOUT_REDIRECT_URL = \"home\"  # Route defined in app/urls.py\nTEMPLATE_DIR = os.path.join(BASE_DIR, \"core/templates\")  # ROOT dir for templates\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [TEMPLATE_DIR],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [",
+        "detail": "core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LOGOUT_REDIRECT_URL",
+        "kind": 5,
+        "importPath": "core.settings",
+        "description": "core.settings",
+        "peekOfCode": "LOGOUT_REDIRECT_URL = \"home\"  # Route defined in app/urls.py\nTEMPLATE_DIR = os.path.join(BASE_DIR, \"core/templates\")  # ROOT dir for templates\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [TEMPLATE_DIR],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',",
+        "detail": "core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATE_DIR",
+        "kind": 5,
+        "importPath": "core.settings",
+        "description": "core.settings",
+        "peekOfCode": "TEMPLATE_DIR = os.path.join(BASE_DIR, \"core/templates\")  # ROOT dir for templates\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [TEMPLATE_DIR],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "detail": "core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "core.settings",
+        "description": "core.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [TEMPLATE_DIR],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "core.settings",
+        "description": "core.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'core.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/3.0/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.mysql',\n        'NAME': 'scraping',\n        'USER': 'root',\n        'PASSWORD': '',\n        'HOST': 'localhost',",
+        "detail": "core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "core.settings",
+        "description": "core.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.mysql',\n        'NAME': 'scraping',\n        'USER': 'root',\n        'PASSWORD': '',\n        'HOST': 'localhost',\n    }\n}\n# Password validation",
+        "detail": "core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "core.settings",
+        "description": "core.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "core.settings",
+        "description": "core.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n#############################################################\n# SRC: https://devcenter.heroku.com/articles/django-assets\nBASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/1.9/howto/static-files/",
+        "detail": "core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "core.settings",
+        "description": "core.settings",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n#############################################################\n# SRC: https://devcenter.heroku.com/articles/django-assets\nBASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/1.9/howto/static-files/\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')",
+        "detail": "core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "core.settings",
+        "description": "core.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n#############################################################\n# SRC: https://devcenter.heroku.com/articles/django-assets\nBASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/1.9/howto/static-files/\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nSTATIC_URL = '/static/'",
+        "detail": "core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_L10N",
+        "kind": 5,
+        "importPath": "core.settings",
+        "description": "core.settings",
+        "peekOfCode": "USE_L10N = True\nUSE_TZ = True\n#############################################################\n# SRC: https://devcenter.heroku.com/articles/django-assets\nBASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/1.9/howto/static-files/\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nSTATIC_URL = '/static/'\n# Extra places for collectstatic to find static files.",
+        "detail": "core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "core.settings",
+        "description": "core.settings",
+        "peekOfCode": "USE_TZ = True\n#############################################################\n# SRC: https://devcenter.heroku.com/articles/django-assets\nBASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/1.9/howto/static-files/\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nSTATIC_URL = '/static/'\n# Extra places for collectstatic to find static files.\nSTATICFILES_DIRS = (",
+        "detail": "core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "core.settings",
+        "description": "core.settings",
+        "peekOfCode": "BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/1.9/howto/static-files/\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nSTATIC_URL = '/static/'\n# Extra places for collectstatic to find static files.\nSTATICFILES_DIRS = (\n    os.path.join(BASE_DIR, 'core/static'),\n)\n#############################################################",
+        "detail": "core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_ROOT",
+        "kind": 5,
+        "importPath": "core.settings",
+        "description": "core.settings",
+        "peekOfCode": "STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nSTATIC_URL = '/static/'\n# Extra places for collectstatic to find static files.\nSTATICFILES_DIRS = (\n    os.path.join(BASE_DIR, 'core/static'),\n)\n#############################################################\n#############################################################",
+        "detail": "core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "core.settings",
+        "description": "core.settings",
+        "peekOfCode": "STATIC_URL = '/static/'\n# Extra places for collectstatic to find static files.\nSTATICFILES_DIRS = (\n    os.path.join(BASE_DIR, 'core/static'),\n)\n#############################################################\n#############################################################",
+        "detail": "core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATICFILES_DIRS",
+        "kind": 5,
+        "importPath": "core.settings",
+        "description": "core.settings",
+        "peekOfCode": "STATICFILES_DIRS = (\n    os.path.join(BASE_DIR, 'core/static'),\n)\n#############################################################\n#############################################################",
+        "detail": "core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "core.urls",
+        "description": "core.urls",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),          # Django admin route\n    path('admin' , admin.site.urls),          # Django admin route \n    path(\"\", include(\"authentication.urls\")), # Auth routes - login / register\n    path(\"\", include(\"app.urls\"))             # UI Kits Html files\n]",
+        "detail": "core.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "core.wsgi",
+        "description": "core.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "bind",
+        "kind": 5,
+        "importPath": "gunicorn-cfg",
+        "description": "gunicorn-cfg",
+        "peekOfCode": "bind = '0.0.0.0:5005'\nworkers = 1\naccesslog = '-'\nloglevel = 'debug'\ncapture_output = True\nenable_stdio_inheritance = True",
+        "detail": "gunicorn-cfg",
+        "documentation": {}
+    },
+    {
+        "label": "workers",
+        "kind": 5,
+        "importPath": "gunicorn-cfg",
+        "description": "gunicorn-cfg",
+        "peekOfCode": "workers = 1\naccesslog = '-'\nloglevel = 'debug'\ncapture_output = True\nenable_stdio_inheritance = True",
+        "detail": "gunicorn-cfg",
+        "documentation": {}
+    },
+    {
+        "label": "accesslog",
+        "kind": 5,
+        "importPath": "gunicorn-cfg",
+        "description": "gunicorn-cfg",
+        "peekOfCode": "accesslog = '-'\nloglevel = 'debug'\ncapture_output = True\nenable_stdio_inheritance = True",
+        "detail": "gunicorn-cfg",
+        "documentation": {}
+    },
+    {
+        "label": "loglevel",
+        "kind": 5,
+        "importPath": "gunicorn-cfg",
+        "description": "gunicorn-cfg",
+        "peekOfCode": "loglevel = 'debug'\ncapture_output = True\nenable_stdio_inheritance = True",
+        "detail": "gunicorn-cfg",
+        "documentation": {}
+    },
+    {
+        "label": "capture_output",
+        "kind": 5,
+        "importPath": "gunicorn-cfg",
+        "description": "gunicorn-cfg",
+        "peekOfCode": "capture_output = True\nenable_stdio_inheritance = True",
+        "detail": "gunicorn-cfg",
+        "documentation": {}
+    },
+    {
+        "label": "enable_stdio_inheritance",
+        "kind": 5,
+        "importPath": "gunicorn-cfg",
+        "description": "gunicorn-cfg",
+        "peekOfCode": "enable_stdio_inheritance = True",
+        "detail": "gunicorn-cfg",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "manage",
+        "description": "manage",
+        "peekOfCode": "def main():\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'core.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"\n        ) from exc",
+        "detail": "manage",
+        "documentation": {}
+    }
+]

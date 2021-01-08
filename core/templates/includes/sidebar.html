@@ -1,0 +1,40 @@
+    <div class="sidebar" data-color="purple" data-background-color="white" data-image="/static/assets/img/sidebar-1.jpg">
+      <div class="logo">
+        <a target="_blank" rel="noopener noreferrer" 
+           target="_blank" rel="noopener noreferrer" 
+           href="https://www.creative-tim.com/product/material-dashboard-django" class="simple-text logo-normal">
+          Lawyers
+        </a>
+      </div>
+      {% if user.is_authenticated %}
+      <div class="sidebar-wrapper">
+        <ul class="nav">
+          <li class="nav-item {% if 'index' == segment %} active {% endif %}">
+            <a class="nav-link" href="/">
+              <i class="material-icons">search</i>
+              <p>Scrape</p>
+            </a>
+          </li>
+          <li class="nav-item {% if 'page-user' in segment %} active {% endif %}">
+            <a class="nav-link" href="/user-profile">
+              <i class="material-icons">person</i>
+              <p>User Profile</p>
+            </a>
+          </li>
+          <li class="nav-item {% if 'user-management' in segment %} active {% endif %}">
+            <a class="nav-link" href="/user-management">
+              <i class="material-icons">people</i>
+              <p>User Management</p>
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="{% url 'logout' %}" >
+              <i class="material-icons">directions_run</i>
+              <p>Logout</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+      {% endif %}
+
+    </div>

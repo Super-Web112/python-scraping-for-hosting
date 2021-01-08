@@ -1,0 +1,295 @@
+{% extends "layouts/base.html" %}
+
+{% block title %} Dashboard {% endblock %} 
+
+<!-- Specific Page CSS goes HERE  -->
+{% block stylesheets %}
+<style>
+#name-table{
+  max-height: 300px;
+  overflow-y: scroll;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  border: solid 1px #cfcfcf;
+  border-radius: 5px;
+  z-index: 10;
+  background-color: #eee;
+  display: none;
+}
+#myUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myUL li{
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #eee;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block;
+  cursor: pointer;
+}
+
+#myUL li:hover:not(.header) {
+  background-color: #ddd;
+}
+
+#progress-circle{
+  display: none;
+}
+#city-name{
+  display: none;
+}
+#two-progress-circle{
+  display: none;
+}
+</style>
+{% endblock stylesheets %}
+
+{% block content %}
+  <!-- <form role="form" method="POST" action="/scrape_data" id="scrape-form"> -->
+    <div class="row">
+      <div class="col-lg-4 col-md-6 col-sm-6">
+        {% csrf_token %}
+        <div class="form-group">
+          <label class="bmd-label-floating">From</label>
+          <input type="number" class="form-control" min="2" max="3000" id="start-id" required name='start-id'>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-6">
+        <div class="form-group">
+          <label class="bmd-label-floating">To</label>
+          <input type="number" class="form-control" min="2" max="3000" id="end-id" required name='end-id'>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-6">
+        <div class="form-group fa-2x" style="color: #9c27b0;">
+          <!-- <input type="submit" class="btn btn-primary" id="scrape-data-btn" value="Start Scraping"> -->
+          <button class="btn btn-primary" id="scrape-data-btn">Start Scraping</button>
+          <i class="fas fa-spinner fa-spin" id="progress-circle"></i>
+        </div>
+      </div>
+    </div>
+    <div class="row" style="margin-top:30px; margin-bottom: 30px;">
+      <div class="col-md-12">
+        <img src="/static/assets/img/scrape_banner.jpeg" style="width:100%;">
+      </div>
+    </div>
+  <!-- </form> -->
+    <div class="row">
+      <div class="col-md-12">
+        {% if request.user.is_superuser %}
+        <button class="btn btn-primary" id="scrape-name-btn">Start Name Scraping</button>
+        <i class="fas fa-spinner fa-spin" id="two-progress-circle"></i>
+        <button class="btn btn-primary" id="scrape-city-btn">Start City Scraping</button>
+        {% endif %}
+        <button class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">LEGENDA</button>
+      </div>
+    </div>
+    <div id="city-name">
+      {% for city in cities %}
+      <span>{{ city.city_name }}</span>
+      <span class="city-num">{{ city.url_id }}</span>
+      {% endfor %}
+    </div>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Legenda</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        
+      <table class="table">
+        <tbody>
+        {% for city in cities %}
+          <tr>
+            <td>
+            ID = {{ city.url_id }} ==> {{ city.city_name }}
+            </td>
+          </tr>
+        {% endfor %}
+        </tbody>
+      </table>
+
+        
+          
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock content %}
+
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}
+
+  <script>
+  var token = $('{% csrf_token %}').val()
+    $(document).ready(function() {
+      function scrape_finished(){
+        $("#progress-circle").css("display", "none")
+        $("#scrape-data-btn").css("display", "inline-block")
+        alert("scraping is finished.")
+      }
+      // Javascript method's body can be found in assets/js/demos.js
+      
+      md.initDashboardPageCharts();
+      /*$("#scrape-data-btn").click(function(){
+        
+        $("#scrape-form").submit(function(e){
+          $.post('/scrape_data', $(this).serialize(), function(resp){
+            console.log(resp)
+            window.location=resp
+          })
+          e.preventDefault();
+        })
+      })*/
+      $("#scrape-data-btn").click(function(){
+        var start_id = $("#start-id").val()
+        var end_id = $("#end-id").val()
+        if((start_id=='') || (end_id=='')){
+          $.notify({
+            icon: "error",
+            message: "Input items correctly."
+
+          }, {
+            type: 'danger',
+            timer: 3000,
+            placement: {
+              from: "bottom",
+              align: "right"
+            }
+          });
+        }else if(Number(start_id)>Number(end_id)){
+          $.notify({
+            icon: "error",
+            message: "Start id must be smaller than end id."
+
+          }, {
+            type: 'danger',
+            timer: 3000,
+            placement: {
+              from: "bottom",
+              align: "right"
+            }
+          });
+        }else{
+          $("#progress-circle").css("display", "inline-block")
+          $("#scrape-data-btn").css("display", "none")
+          //for(var i=start_id;i<=end_id;i++){
+            id = start_id
+            function scrape_data(id){
+              var is_exist = false;
+              $("#city-name>.city-num").filter(function(){
+                if($(this).text().toLowerCase().indexOf(id) > -1){
+                  is_exist = true;
+                }
+              })
+              if(is_exist){
+                $.ajax({
+                  headers: { "X-CSRFToken": token },
+                  method: 'POST',
+                  url: '/scrape_data',
+                  data: {
+                    'start_id': id
+                  },
+                  dataType: 'json',
+                  success: function (data) {
+                    /*if (data.is_taken) {
+                      $("#progress-circle").css("display", "none")
+                      $("#scrape-data-btn").css("display", "inline-block")
+                      alert("A user with this username already exists.");
+                    }*/
+                    //location.replace('/scrape_data')
+                    if(data.result){
+                      window.location=data.location
+                    }else{
+                      console.log('success')
+                      console.log(data)
+                    }
+                    id = Number(id) + 1;
+                    if(id <= end_id) scrape_data(id)
+                    else scrape_finished()
+                  },
+                  error: function (data) {
+                    $("#progress-circle").css("display", "none")
+                    $("#scrape-data-btn").css("display", "inline-block")
+                    //alert("Scraping error.")
+                    //location.replace('/scrape_data')
+                    console.log('error')
+                    console.log(data)
+                  }
+                });
+              }else{
+                id = Number(id) + 1;
+                if(id <= end_id) scrape_data(id)
+                else scrape_finished()
+              }
+            }
+            scrape_data(id)
+          //}
+        }
+      });
+      $("#scrape-name-btn").click(function(){
+        $("#two-progress-circle").css("display", "inline-block")
+        $("#scrape-name-btn").css("display", "none")
+        $.ajax({
+          url: '/scrape_name',
+          data: {
+            'username': 'username'
+          },
+          dataType: 'json',
+          success: function (data) {
+            $("#two-progress-circle").css("display", "none")
+            $("#scrape-city-btn").css("display", "inline-block")
+            if (data.sucess) {
+              alert("Scraping name is finished.");
+            }
+          },
+          error: function (data) {
+            $("#two-progress-circle").css("display", "none")
+            $("#scrape-name-btn").css("display", "inline-block")
+            alert("Scraping name error.");
+          }
+        });
+      });
+      $("#scrape-city-btn").click(function(){
+        $("#two-progress-circle").css("display", "inline-block")
+        $("#scrape-city-btn").css("display", "none")
+        $.ajax({
+          url: '/scrape_city',
+          data: {
+            'username': 'username'
+          },
+          dataType: 'json',
+          success: function (data) {
+            $("#two-progress-circle").css("display", "none")
+            $("#scrape-city-btn").css("display", "inline-block")
+            if (data.success) {
+              alert("Scraping city name is finished.");
+            }
+          },
+          error: function (data) {
+            $("#two-progress-circle").css("display", "none")
+            $("#scrape-city-btn").css("display", "inline-block")
+            alert("Scraping city name error.");
+          }
+        });
+      });
+    });
+  </script>
+
+{% endblock javascripts %}
